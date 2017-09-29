@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+N_THREADS	threadexample2.c	7;"	d	file:
+N_THREADS	threadexample3.c	7;"	d	file:
+N_THREADS	threadexample4.c	8;"	d	file:
+globvar	forkexample1.c	/^int globvar = 6;$/;"	v
+globvar	threadexample1.c	/^int globvar = 6;$/;"	v
+main	forkexample1.c	/^int main(void) {$/;"	f
+main	threadexample1.c	/^int main(void) {$/;"	f
+main	threadexample2.c	/^int main(void) {$/;"	f
+main	threadexample3.c	/^int main(void) {$/;"	f
+main	threadexample4.c	/^int main(void) {$/;"	f
+messages	threadexample3.c	/^char *messages[N_THREADS] = {$/;"	v
+messages	threadexample4.c	/^char *messages[N_THREADS] = {$/;"	v
+printMessage	threadexample2.c	/^void *printMessage(void *arg) {$/;"	f
+printMessage	threadexample3.c	/^void *printMessage(void *arg) {$/;"	f
+printMessage	threadexample4.c	/^void *printMessage(void *arg) {$/;"	f
+threadController	threadexample1.c	/^void *threadController(void *arg) {$/;"	f
